@@ -1,0 +1,83 @@
+body{
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: 0 200px;
+ 
+background-image: url(data:image/jpeg;base64,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);
+
+}
+   h1{
+       text-align: center;
+       font-size: xx-large;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkturquoise;    
+    }
+    .logo{
+        padding-left: 50%;
+        margin-block: 10;
+        width:100px;
+        height:100px;
+        padding-bottom: 40%;
+
+    }
+
+
+   
+.container{
+    position: absolute;
+  top: 180px;
+    width: 90%;
+    margin-left: 60px;
+    box-shadow: 0 0 10px;
+
+}
+.btn-count{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+   
+    box-shadow:0 10px 20px;
+    margin-top: 20px;
+    border-radius: 40px;
+    margin-right: 20px;
+    align-items: center;
+    transform: translate(70px -50%); 
+}
+.btn-count button{
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    background: #dbdbdb;
+    color: #fff;
+    font-size: 27px;
+
+}
+table{
+    margin: 20px 0px; 
+    width: 100%;
+}
+td{
+    height: 100px;
+    text-align: center;
+    width: 200px;
+    border-top: 1px solid #d2d8d2;
+}
+img{
+    width: 200px;
+    height:170px;
+    padding-right: 20%;
+}
+.plus:hover{
+    cursor: pointer;
+    background:#ef5350 ;
+}
+.minus:hover{
+cursor: pointer;
+background: #ef5350;
+}
+
