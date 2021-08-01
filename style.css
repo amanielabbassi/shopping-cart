@@ -51,9 +51,7 @@ background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAk
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: transparent;
-    background: #dbdbdb;
-    color: #fff;
+   
     font-size: 27px;
 
 }

@@ -108,14 +108,7 @@ function Total(e) {
 }
 
 
-//var likes=document.getElementsByClassName("like")
-//console.log(likes)
-//for (const like of likes) {
-    //like.addEventListener('click',function () {
-        //like.classList.toggle('active')
-        
-    //})
-// }  
+
 let remove = Array.from(document.querySelectorAll(".remove"))
 remove.forEach((x) => {
   x.addEventListener("click",(Event) =>{
@@ -131,14 +124,36 @@ remove.forEach((x) => {
 
   
 
-})
-})
-let likes = Array.from(document.querySelectorAll(".likes"))
-likes.forEach((x) => {
-  x.addEventListener("click",(Event) =>{
-    if (Event.target.style.color !="red"){
-      Event.target.style.color !="red"
-    }else { Event.target.style.color ="#AAB8C2"}})
-})
+})})
+
+
+
+//let likes = Array.from(document.querySelectorAll(".likes"))
+//likes.forEach((x) => {
+ // x.addEventListener("click",(event) =>{
+   // if (event.target.style.color ='000000'){
+     // event.target.style.color ='000000'
+   // }else { event.target.style.color ='#ff0000'}})
+//})
+
+var likes=document.getElementsByClassName('fas fa-heart')
+ for (const like of likes) {
+     
+    like.addEventListener('click',function()
+    {
+            like.classList.toggle('active')
+            event.target.style.color ='#c9302c'
+        }) }
+
+var dislikes=document.getElementsByClassName('fas fa-heart')
+ for (const dislike of dislikes) {
+          console.log(dislikes)  
+     dislike.addEventListener('dblclick',function()
+    {     
+        dislike.classList.toggle('active')
+         event.target.style.color ='#000000'
+          
+                  
+               }) }
 
 
