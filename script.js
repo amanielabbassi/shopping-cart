@@ -93,14 +93,17 @@ function Total(e) {
    var totaltag=document.getElementById("total");
    var total=Number(totaltag.innerHTML);
    var btnplus=checktag.parentElement.parentElement.querySelector(".plus");
+   var btnminus=checktag.parentElement.parentElement.querySelector(".minus");
 
    if (checktag.checked==true) {
       total+=price;
     btnplus.setAttribute("disabled",true);
+    btnminus.setAttribute("disabled",true);
     
    } else {
       total-=price;
       btnplus.removeAttribute("disabled");
+      btnminus.removeAttribute("disabled");
       
    }
    totaltag.innerHTML=total;
